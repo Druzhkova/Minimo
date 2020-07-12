@@ -11,18 +11,20 @@
 <body>
   <div class="wrapper">
     <header class="header">
-      <nav class="header_nav">
-        <label class="header_logo" href="#">minimo</label>
-        <div class="header_menu">
-          <ul>
-            <li><a href="">lifestyle</a></li>
-            <li><a href="">photodiary</a></li>
-            <li><a href="">music</a></li>
-            <li><a href="">travel</a></li>
-          </ul>
-        </div>
-        <div class="gamburger"></div>
-      </nav>
+      <div class="header_container">
+        <nav class="header_nav">
+          <label class="header_logo" href="#">minimo</label>
+          <div class="header_menu">
+            <ul>
+              <li><a href="">lifestyle</a></li>
+              <li><a href="">photodiary</a></li>
+              <li><a href="">music</a></li>
+              <li><a href="">travel</a></li>
+            </ul>
+          </div>
+          <div class="gamburger"></div>
+        </nav>
+      </div> 
     </header>
     <div class="conteiner-main-photo">
      <img class="header_main-photo" src="./img/main-photo.png">
@@ -61,14 +63,40 @@
         </div>
         <div class="post">
           <img class="photo-post" src="./img/photo-second-block-right.png">
-          <p class="caption">A day exploring the Alps</p>
+          <p class="caption">photodiary</p>
           <h2 class="title-post">Life tastes better with coffee</h2>
           <p class="text-post text-post--padding">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut ba labore et dolore magna aliqua. Ut enim ad minim veniam, consectetur ipsum adipisicing quis.</p>
         </div>  
       </div>
     </section>
-    <section class="second-post"></section>
-    <section class="third-post"></section>
+    <form class="form" action="#" method="POST" enctype="multipart/form-data">
+      <div class="container-form" > 
+        <h2 class="form_title">Sign up for our newsletter!</h2>
+        <div class="form-enter">
+          <input class="form_input" type="email" placeholder="Enter email address">
+          <button class="form_button"><img src="./img/send-icon.png" alt=""></button>
+        </div>
+      </div> 
+    </form>
+    <section class="section-post third-post">
+      <div class="container container-post">
+        <div class="post post--first">
+          <img class="photo-post" src="./img/photo-third-block-left.png">
+          <p class="caption">lifestyle</p>
+          <h2 class="title-post">Top 10 song for running</h2>
+          <p class="text-post text-post--padding">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut ba labore et dolore magna aliqua. Ut enim ad minim veniam, consectetur ipsum adipisicing quis.</p>
+        </div>
+        <div class="post">
+          <img class="photo-post" src="./img/photo-third-block-right.png">
+          <p class="caption">lifestyle</p>
+          <h2 class="title-post">Cold winter days</h2>
+          <p class="text-post text-post--padding">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut ba labore et dolore magna aliqua. Ut enim ad minim veniam, consectetur ipsum adipisicing quis.</p>
+        </div>  
+      </div>
+    </section>
+    <div class="button-more">
+      <button class="button-more_load-more">Load more</button>
+    </div>
   </div>
 </body>
 </html>
