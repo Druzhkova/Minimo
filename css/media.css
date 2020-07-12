@@ -9,7 +9,7 @@
 
   label.header_logo{
     margin: 0 auto;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
   }
 }
 
@@ -49,5 +49,20 @@
 @media (min-width: 412px) {
   .gamburger {
     display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    padding: 25px 0 25px;
+  }
+  
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-text {
+    margin-bottom: 15px;
   }
 }
