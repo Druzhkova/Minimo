@@ -161,6 +161,7 @@ label.header_logo {
 }
 
 .conteiner-main-photo {
+  position: relative;
   display: flex;
   justify-content: center;
 }
