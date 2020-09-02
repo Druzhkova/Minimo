@@ -100,6 +100,13 @@ img {
   vertical-align: middle;
 }
 
+/* Remove outline on the forms and links
+===============================================================*/
+:active, :hover, :focus {
+  outline: 0;
+  outline-offset: 0;
+}
+
 /* wrapper
 ===================================================*/
 
