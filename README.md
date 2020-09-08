@@ -1,3 +1,3 @@
 # Minimo
 
-<a href='https://druzhkova.github.io/Minimo/'>Watch here</a>
+<a href='https://druzhkova.github.io/Minimo-blog/'>Watch here</a>
